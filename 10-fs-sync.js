@@ -26,7 +26,7 @@ writeFileSync(
 console.log('done with this task');
 console.log('start the next one');
 
-//readFileSync and writeFileSync is time-cosuming task, eg: 10 users do the same task, as JS is single thread, when one user do these tasks, another has to wait until the first user finish everything then the second can do these tasks
+//readFileSync and writeFileSync is time-consuming task, eg: 10 users do the same task, as JS is single thread, when one user do these tasks, another has to wait until the first user finish everything then the second can do these tasks
 // everything happen line by line, when we are done with a task , we can start with next one
 
 

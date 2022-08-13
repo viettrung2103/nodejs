@@ -22,5 +22,14 @@
 const _ = require('lodash');
 
 const items = [1, [2, [3, [4]]]];
-const newItems = _.flattenDeep(items);
+const newItems = _.flattenDeep(items); // to access lodash module
 console.log(newItems);
+console.log ("hello new change here");
+
+// when cloning new project, type npm install in terminal to install all the project's dependencies
+// to install as develope dependencies, add - D or --save-dev
+// sometimes, we just need some packages to test something or in development, therefore, we dont need these packages in deployment >> dependencies and dev-dependencies
+
+// to remove package
+// 1.npm install packageName
+// 2. nuclus method : remove package.json file
